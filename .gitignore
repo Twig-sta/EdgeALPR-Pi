@@ -1,5 +1,5 @@
-alpr_dashboard/static/captured_images
-
+#** Ignore the following files and directories: **#
+dashboard/captures/
 venv/
 __pycache__/
 *.pyc
