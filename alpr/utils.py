@@ -1,6 +1,13 @@
 #**Utility functions for ALPR preprocessing**#
 
-import cv2 # OpenCV for image processing
+# This module contains utility functions
+import cv2 
+import os
+from importlib.resources import path
+from datetime import datetime
+
+# Directory to save captured license plate images
+CAPTURE_DIR = "dashboard/captures/"
 
 # Preprocess the image for better license plate detection 
 # This function converts the image to grayscale and applies a Gaussian blur to reduce noise
@@ -16,3 +23,15 @@ def detect_edges(image):
     edges = cv2.Canny(image, 100, 200) 
 
     return edges
+
+# Save the detected license plate image to the captures directory with a timestamped filename
+# This function checks if the captures directory exists, creates it if it doesn't, and saves the plate image with a filename that includes the current date and time
+def save_plate_image(plate_img):
+    if not os.path.exists(CAPTURE_DIR):
+        os.makedirs(CAPTURE_DIR)
+
+    filename = datetime.now().strftime("plate_%Y%m%d_%H%M%S.jpg")
+    path = os.path.join(CAPTURE_DIR, filename)
+    cv2.imwrite(path, plate_img)
+
+    return path
