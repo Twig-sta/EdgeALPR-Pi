@@ -1,7 +1,7 @@
 import cv2
 from alpr.pipeline import process_frame
 
-image = cv2.imread("tests/images/car.jpg")
+image = cv2.imread("tests/images/BMW_license_plate.jpg")
 
 results = process_frame(image)
 
