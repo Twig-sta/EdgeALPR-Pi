@@ -2,7 +2,7 @@
 
 #import necessary libraries cv2 for image processing and the utility functions for preprocessing and edge detection
 import cv2 
-from utils import preprocess_image, detect_edges 
+from alpr.utils import preprocess_image, detect_edges 
 
 #This function detects potential license plate regions in the input frame
 def detect_plates(frame):
@@ -19,8 +19,9 @@ def detect_plates(frame):
         aspect_ratio = w / float(h)
         area = w * h
         
-        if 2 < aspect_ratio < 5 and area > 2000:
-            plate_img= frame[y:y+h, x:x+w]
+        # Filter for typical license plate dimensions: aspect ratio between 2-5, minimum area, and size constraints
+        if 2 <= aspect_ratio <= 5 and area > 500 and w >= 50 and h >= 20 and w <= 300 and h <= 100:
+            plate_img = frame[y:y+h, x:x+w]
 
             #Store the bounding box and the corresponding image of the candidate license plate for further processing
             candidates.append({
