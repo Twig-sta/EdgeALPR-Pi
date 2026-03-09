@@ -1,6 +1,5 @@
-#** This file contains the main ALPR pipeline **#
+# ** This file contains the main ALPR pipeline **#
 
-# Import necessary libraries for image processing and OCR, as well as the plate detection function from the detector module
 import cv2
 import pytesseract
 from alpr.detector import detect_plates
@@ -42,4 +41,5 @@ def process_frame(frame):
             'image': image_path
         })
 
+    return results
     return results
