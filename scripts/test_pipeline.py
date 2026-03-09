@@ -2,14 +2,23 @@
 
 # It imports the CameraService to capture a frame from the camera and the process_frame function from the ALPR pipeline to detect license plates and extract text
 # The results are printed to the console for verification.
-from services.camera_service import CameraService
+import cv2
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from alpr.pipeline import process_frame
 
-camera = CameraService()
+image_path = "tests/images/BMW_license_plate.jpg"
 
-frame = camera.get_frame()
+frame = cv2.imread(image_path)
 
 results = process_frame(frame)
 
-for r in results:
-    print(f"Plate: {r['text']} | Image: {r['image']}")
+print("Detection Results:")
+print(results)
+
+cv2.imshow("Test Image", frame)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
