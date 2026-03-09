@@ -4,22 +4,27 @@
 import cv2
 import pytesseract
 from detector import detect_plates
+from utils import save_plate_image
+from logger import log_detection 
 
 # This function processes a single video frame to detect license plates and extract text from them using OCR
 def process_frame(frame):
     plates = detect_plates(frame)
     results = []
     
-    # Loop through the detected license plate candidates
-    # extract the image of each candidate
-    # use Tesseract OCR to read the text from the plate image
-    # Store the bounding box and the extracted text in the results list for further use.
+    # Loop through each detected plate, extract the image, convert it to grayscale, and use Tesseract OCR to read the text. 
+    # If text is found, save the plate image and log the detection.
     for plate in plates:
         plate_img = plate['image']
-        text = pytesseract.image_to_string(plate_img, config='--psm 8')
-        results.append({
-            'bbox': plate['bbox'],
-            'text': text.strip()
-        })
+        gray = cv2.cvtColor(plate_img, cv2.COLOR_BGR2GRAY)  
+        text = pytesseract.image_to_string(gray, config='--psm 8').strip()
 
-    return results
+        if text:
+            image_path = save_plate_image(plate_img)
+            log_detection(text, image_path)
+        
+        results.append({
+            'bbox': plate["bbox"],
+            'text': text,
+            'image': image_path
+        })
