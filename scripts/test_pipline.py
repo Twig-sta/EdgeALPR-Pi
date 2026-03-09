@@ -11,4 +11,5 @@ frame = camera.get_frame()
 
 results = process_frame(frame)
 
-print(results)
+for r in results:
+    print(f"Plate: {r['text']} | Image: {r['image']}")
