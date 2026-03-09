@@ -2,7 +2,7 @@ import cv2
 
 def draw_detections(frame, detections):
     for det in detections:
-        x, y, w, h, = det['box']
+        x, y, w, h, = det['bbox']
         text = det["text"]
 
         cv2.rectangle(

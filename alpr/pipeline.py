@@ -3,7 +3,7 @@
 # Import necessary libraries for image processing and OCR, as well as the plate detection function from the detector module
 import cv2
 import pytesseract
-from detector import detect_plates
+from alpr.detector import detect_plates
 
 # This function processes a single video frame to detect license plates and extract text from them using OCR
 def process_frame(frame):

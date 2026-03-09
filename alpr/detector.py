@@ -2,7 +2,7 @@
 
 #import necessary libraries cv2 for image processing and the utility functions for preprocessing and edge detection
 import cv2 
-from utils import preprocess_image, detect_edges 
+from alpr.utils import preprocess_image, detect_edges 
 
 #This function detects potential license plate regions in the input frame
 def detect_plates(frame):
