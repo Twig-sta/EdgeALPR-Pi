@@ -31,7 +31,7 @@ def detect_plates(frame):
         aspect_ratio = w / float(h)
 
         # license plates are usually wider than tall
-        if aspect_ratio < 1.5 or aspect_ratio > 6:
+        if aspect_ratio < 2 or aspect_ratio > 7:
             continue
 
         # remove very small boxes
