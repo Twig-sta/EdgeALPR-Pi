@@ -1,8 +1,6 @@
 #**This file detects license plate candidates in the preprocessed image**#
 
 #import necessary libraries cv2 for image processing and the utility functions for preprocessing and edge detection
-from email.mime import image
-
 import cv2 
 from alpr.utils import preprocess_image, detect_edges 
 
@@ -17,28 +15,33 @@ def detect_plates(frame):
 
     #Loop through the detected contours and filter them based on aspect ratio and area to identify potential license plate candidates
     for c in contours:
+
+        # contour area
+        area = cv2.contourArea(c)
+
+        # remove tiny contours
+        if area < 800:
+            continue
+
         x, y, w, h = cv2.boundingRect(c)
-    
-        # Aspect ratio filter (typical license plates)
+
+        if h == 0:
+            continue
+
         aspect_ratio = w / float(h)
-        
-        if aspect_ratio < 2 or aspect_ratio > 5:
+
+        # license plates are usually wider than tall
+        if aspect_ratio < 1.5 or aspect_ratio > 6:
             continue
 
-        # Minimum size filter
-        if w < 80 or h < 25:
+        # remove very small boxes
+        if w < 60 or h < 20:
             continue
 
-        # Maximum size filter (to avoid huge rectangles)
-        if w > 600 or h > 200:
+        # remove extremely large boxes
+        if w > frame.shape[1] * 0.9:
             continue
 
-        # Optional: area threshold
-        area = w * h
-        if area < 2000:
-            continue
-
-        # Candidate passes all filters
         plate_img = frame[y:y+h, x:x+w]
 
         candidates.append({
@@ -46,4 +49,7 @@ def detect_plates(frame):
             "image": plate_img
         })
     
+    print("Contours found:", len(contours))
+    print("License plate candidates found:", len(candidates))
+
     return candidates
