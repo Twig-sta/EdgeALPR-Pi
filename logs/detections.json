@@ -1960,58 +1960,678 @@
     "image": "dashboard/captures/plate_20260309_153831.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.107488",
-    "plate": "S",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
-  },
-  {
-    "timestamp": "2026-03-10T01:07:42.293286",
+    "timestamp": "2026-03-09T21:07:15.682843",
     "plate": "2COOLAU",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210715.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.359488",
+    "timestamp": "2026-03-09T21:07:15.747292",
     "plate": "YI",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210715.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.423666",
+    "timestamp": "2026-03-09T21:07:15.811514",
     "plate": "YIA",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210715.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.557714",
+    "timestamp": "2026-03-09T21:07:15.943265",
     "plate": "---NS",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210715.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.740806",
+    "timestamp": "2026-03-09T21:07:16.131659",
     "plate": "FTSS",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210716.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.801010",
+    "timestamp": "2026-03-09T21:07:16.192659",
     "plate": "XE",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210716.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.860889",
+    "timestamp": "2026-03-09T21:07:16.253435",
     "plate": "AE",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210716.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:42.980293",
+    "timestamp": "2026-03-09T21:07:16.373027",
     "plate": "F",
-    "image": "dashboard/captures/plate_20260310_010742.jpg"
+    "image": "dashboard/captures/plate_20260309_210716.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:43.230013",
+    "timestamp": "2026-03-09T21:07:16.560295",
+    "plate": "A-",
+    "image": "dashboard/captures/plate_20260309_210716.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.099750",
+    "plate": "2COOLAU",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.162138",
+    "plate": "YI",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.229484",
+    "plate": "YIA",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.362480",
+    "plate": "---NS",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.558207",
+    "plate": "FTSS",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.621906",
+    "plate": "XE",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.685067",
     "plate": "AE",
-    "image": "dashboard/captures/plate_20260310_010743.jpg"
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
   },
   {
-    "timestamp": "2026-03-10T01:07:43.347919",
+    "timestamp": "2026-03-09T21:11:40.806750",
+    "plate": "F",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:11:40.996045",
+    "plate": "A-",
+    "image": "dashboard/captures/plate_20260309_211140.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:21:55.614279",
+    "plate": "XE",
+    "image": "dashboard/captures/plate_20260309_212155.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:21:55.677051",
+    "plate": "AE",
+    "image": "dashboard/captures/plate_20260309_212155.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.383121",
     "plate": "A",
-    "image": "dashboard/captures/plate_20260310_010743.jpg"
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.452012",
+    "plate": "ILTHESOLANSTE",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.519457",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.586038",
+    "plate": "ON",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.650514",
+    "plate": "POO",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.740301",
+    "plate": "O",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.862045",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.921691",
+    "plate": "Y",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:57.992402",
+    "plate": "SE",
+    "image": "dashboard/captures/plate_20260309_212857.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:58.053302",
+    "plate": "LA",
+    "image": "dashboard/captures/plate_20260309_212858.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:58.249378",
+    "plate": "IN",
+    "image": "dashboard/captures/plate_20260309_212858.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:28:58.315266",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_212858.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:50.890622",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_213150.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:50.960214",
+    "plate": "ILTHESOLANSTE",
+    "image": "dashboard/captures/plate_20260309_213150.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.029685",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.093743",
+    "plate": "ON",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.158460",
+    "plate": "POO",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.244568",
+    "plate": "O",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.317767",
+    "plate": "SE",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.387233",
+    "plate": "EE",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.473044",
+    "plate": "AH",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.535145",
+    "plate": "LA",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.677696",
+    "plate": "IN",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:31:51.745694",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_213151.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:41:38.942687",
+    "plate": "--A",
+    "image": "dashboard/captures/plate_20260309_214138.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:41:39.303208",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_214139.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:50:56.357523",
+    "plate": "DT4",
+    "image": "dashboard/captures/plate_20260309_215056.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:50:56.420012",
+    "plate": "T",
+    "image": "dashboard/captures/plate_20260309_215056.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:50:57.059747",
+    "plate": "-",
+    "image": "dashboard/captures/plate_20260309_215057.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T21:59:10.937881",
+    "plate": "7",
+    "image": "dashboard/captures/plate_20260309_215910.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:03:14.034452",
+    "plate": "R",
+    "image": "dashboard/captures/plate_20260309_220314.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:03:14.109773",
+    "plate": "MR",
+    "image": "dashboard/captures/plate_20260309_220314.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:03:14.247680",
+    "plate": "SN",
+    "image": "dashboard/captures/plate_20260309_220314.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:03:14.451493",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_220314.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:03:15.095188",
+    "plate": "9",
+    "image": "dashboard/captures/plate_20260309_220315.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:06:54.609591",
+    "plate": "R",
+    "image": "dashboard/captures/plate_20260309_220654.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:06:54.681858",
+    "plate": "MR",
+    "image": "dashboard/captures/plate_20260309_220654.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:06:54.814912",
+    "plate": "SN",
+    "image": "dashboard/captures/plate_20260309_220654.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:06:55.013647",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_220655.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:06:55.682467",
+    "plate": "9",
+    "image": "dashboard/captures/plate_20260309_220655.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:07.608536",
+    "plate": "SD",
+    "image": "dashboard/captures/plate_20260309_221407.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:07.715343",
+    "plate": "S",
+    "image": "dashboard/captures/plate_20260309_221407.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:07.850096",
+    "plate": "RJ",
+    "image": "dashboard/captures/plate_20260309_221407.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.054422",
+    "plate": "ST",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.127939",
+    "plate": "08656",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.199797",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.264203",
+    "plate": "SP",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.329630",
+    "plate": "SS",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:08.726020",
+    "plate": "S4",
+    "image": "dashboard/captures/plate_20260309_221408.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.135526",
+    "plate": "SD",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.289739",
+    "plate": "2",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.371034",
+    "plate": "SSS",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.510710",
+    "plate": "MO",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.585217",
+    "plate": "E",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.658951",
+    "plate": "0880",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.730499",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:39.794446",
+    "plate": "5",
+    "image": "dashboard/captures/plate_20260309_221739.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:17:40.259447",
+    "plate": "S4",
+    "image": "dashboard/captures/plate_20260309_221740.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:18.862100",
+    "plate": "SD",
+    "image": "dashboard/captures/plate_20260309_222318.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.097174",
+    "plate": "2",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.181613",
+    "plate": "SSS",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.259018",
+    "plate": "CO",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.406153",
+    "plate": "MO",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.482822",
+    "plate": "E",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.557923",
+    "plate": "0880",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.630074",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:19.694256",
+    "plate": "5",
+    "image": "dashboard/captures/plate_20260309_222319.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:20.163154",
+    "plate": "OT",
+    "image": "dashboard/captures/plate_20260309_222320.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:23:20.384159",
+    "plate": "S4",
+    "image": "dashboard/captures/plate_20260309_222320.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.007555",
+    "plate": "SD",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.243225",
+    "plate": "2",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.326995",
+    "plate": "SSS",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.406568",
+    "plate": "CO",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.557650",
+    "plate": "MO",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.632731",
+    "plate": "E",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.705597",
+    "plate": "0880",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.779965",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:26.846643",
+    "plate": "5",
+    "image": "dashboard/captures/plate_20260309_223326.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:27.316561",
+    "plate": "OT",
+    "image": "dashboard/captures/plate_20260309_223327.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T22:33:27.535521",
+    "plate": "S4",
+    "image": "dashboard/captures/plate_20260309_223327.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:16:16.800505",
+    "plate": "SD",
+    "image": "dashboard/captures/plate_20260309_231616.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:54:35.772102",
+    "plate": "VE-A",
+    "image": "dashboard/captures/plate_20260309_235435.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:54:36.073868",
+    "plate": "NGEKE",
+    "image": "dashboard/captures/plate_20260309_235436.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:54:36.229810",
+    "plate": "VEEETE",
+    "image": "dashboard/captures/plate_20260309_235436.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:54:36.314869",
+    "plate": "ENRE",
+    "image": "dashboard/captures/plate_20260309_235436.jpg"
+  },
+  {
+    "timestamp": "2026-03-09T23:54:36.713990",
+    "plate": "TEODIE",
+    "image": "dashboard/captures/plate_20260309_235436.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:01:25.554985",
+    "plate": "VE-A",
+    "image": "dashboard/captures/plate_20260310_000125.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:01:25.851496",
+    "plate": "NGEKE",
+    "image": "dashboard/captures/plate_20260310_000125.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:01:26.003387",
+    "plate": "VEEETE",
+    "image": "dashboard/captures/plate_20260310_000126.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:01:26.084236",
+    "plate": "ENRE",
+    "image": "dashboard/captures/plate_20260310_000126.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:01:26.484182",
+    "plate": "TEODIE",
+    "image": "dashboard/captures/plate_20260310_000126.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:04:51.882507",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000451.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:04:52.026862",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000452.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:04:52.108895",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000452.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:04:52.345091",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000452.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:05:56.700082",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000556.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:05:56.845589",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000556.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:05:56.928697",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000556.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:05:57.167626",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000557.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:09.982680",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000709.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:10.127991",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000710.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:10.217026",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000710.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:10.453981",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000710.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:51.773422",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000751.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:51.918585",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000751.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:52.001069",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000752.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:07:52.237389",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000752.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:08.128633",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000808.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:08.271946",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000808.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:08.357581",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000808.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:08.593998",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000808.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:34.212208",
+    "plate": "EEE7-",
+    "image": "dashboard/captures/plate_20260310_000834.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:34.356586",
+    "plate": "WAREOM8YE",
+    "image": "dashboard/captures/plate_20260310_000834.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:34.442240",
+    "plate": "XOISMAGE8G",
+    "image": "dashboard/captures/plate_20260310_000834.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T00:08:34.697277",
+    "plate": "ES3WN",
+    "image": "dashboard/captures/plate_20260310_000834.jpg"
   }
 ]
