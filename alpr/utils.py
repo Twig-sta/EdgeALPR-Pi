@@ -1,41 +1,50 @@
-#**Utility functions for ALPR preprocessing**#
-
-# This module contains utility functions
-import cv2 
+# utils.py
+import cv2
 import os
-from importlib.resources import path
 from datetime import datetime
+import numpy as np
 
-# Directory to save captured license plate images
 CAPTURE_DIR = "dashboard/captures/"
 
-# Preprocess the image for better license plate detection 
-# This function converts the image to grayscale and applies a Gaussian blur to reduce noise
 def preprocess_image(frame):
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) 
-    blur = cv2.GaussianBlur(gray, (5, 5), 0) 
+    """
+    Grayscale + CLAHE + small blur to enhance plate edges
+    """
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+    gray = clahe.apply(gray)
+    gray = cv2.GaussianBlur(gray, (3,3), 0)
+    return gray
 
-    return blur
-
-# Detect edges in the preprocessed image using Canny edge detection
-# This function takes the blurred grayscale image and applies the Canny edge detection algorithm to find edges
-def detect_edges(image):
-    edges = cv2.Canny(image, 100, 200) 
-
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+def detect_edges(gray):
+    """
+    Detect edges and perform morphological operations to combine plate letters
+    """
+    edges = cv2.Canny(gray, 30, 100)
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (17, 3))
     edges = cv2.dilate(edges, kernel, iterations=1)
     edges = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
-
     return edges
 
-# Save the detected license plate image to the captures directory with a timestamped filename
-# This function checks if the captures directory exists, creates it if it doesn't, and saves the plate image with a filename that includes the current date and time
 def save_plate_image(plate_img):
     if not os.path.exists(CAPTURE_DIR):
         os.makedirs(CAPTURE_DIR)
-
     filename = datetime.now().strftime("plate_%Y%m%d_%H%M%S.jpg")
     path = os.path.join(CAPTURE_DIR, filename)
     cv2.imwrite(path, plate_img)
-
     return path
+
+def crop_plate_characters(gray):
+    """
+    Crop top and bottom rows that contain no characters
+    """
+    projection = gray.sum(axis=1)
+    threshold = projection.mean()
+    rows = [i for i, val in enumerate(projection) if val < threshold]
+
+    if not rows:
+        return gray
+
+    top = max(min(rows) - 5, 0)
+    bottom = min(max(rows) + 5, gray.shape[0])
+    return gray[top:bottom, :]

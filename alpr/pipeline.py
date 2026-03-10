@@ -1,45 +1,50 @@
-# ** This file contains the main ALPR pipeline **#
-
+# pipeline.py
 import cv2
 import pytesseract
 from alpr.detector import detect_plates
-from alpr.utils import save_plate_image
-from alpr.logger import log_detection 
+from alpr.utils import save_plate_image, crop_plate_characters
 
-# Valid characters that appear on license plates: uppercase letters, numbers, and hyphens
 VALID_PLATE_CHARACTERS = set('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-')
 
-# Filter OCR output to only include valid license plate characters
 def filter_plate_text(text):
-    filtered = ''.join(char.upper() for char in text if char.upper() in VALID_PLATE_CHARACTERS)
-    return filtered
+    return ''.join(c.upper() for c in text if c.upper() in VALID_PLATE_CHARACTERS)
 
-# This function processes a single video frame to detect license plates and extract text from them using OCR
 def process_frame(frame):
     results = []
-
     plates = detect_plates(frame)
 
     for plate in plates:
         plate_img = plate['image']
+        margin = 2
+        plate_img = plate_img[margin:-margin, margin:-margin]
 
+        # OCR preprocessing
         gray = cv2.cvtColor(plate_img, cv2.COLOR_BGR2GRAY)
-        text = pytesseract.image_to_string(gray, config='--psm 8').strip()
-        
-        # Filter text to only include valid license plate characters
+        gray = cv2.GaussianBlur(gray, (3,3), 0)
+        _, gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        gray = crop_plate_characters(gray)
+        gray = cv2.resize(gray, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+
+        # Save debug OCR image
+        cv2.imwrite(f"debug_plate_{plate['bbox'][0]}_{plate['bbox'][1]}.jpg", gray)
+
+        # OCR
+        text = pytesseract.image_to_string(
+            gray,
+            config='--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+        ).strip()
         text = filter_plate_text(text)
+        if len(text) < 4:
+            text = ""
 
         image_path = None
-
         if text:
             image_path = save_plate_image(plate_img)
-            log_detection(text, image_path)
 
         results.append({
-            'bbox': plate["bbox"],
-            'text': text,
-            'image': image_path
+            "bbox": plate["bbox"],
+            "text": text,
+            "image": image_path
         })
 
-    return results
     return results
