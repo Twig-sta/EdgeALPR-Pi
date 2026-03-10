@@ -1958,5 +1958,60 @@
     "timestamp": "2026-03-09T15:38:31.969034",
     "plate": "A",
     "image": "dashboard/captures/plate_20260309_153831.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.107488",
+    "plate": "S",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.293286",
+    "plate": "2COOLAU",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.359488",
+    "plate": "YI",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.423666",
+    "plate": "YIA",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.557714",
+    "plate": "---NS",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.740806",
+    "plate": "FTSS",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.801010",
+    "plate": "XE",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.860889",
+    "plate": "AE",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:42.980293",
+    "plate": "F",
+    "image": "dashboard/captures/plate_20260310_010742.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:43.230013",
+    "plate": "AE",
+    "image": "dashboard/captures/plate_20260310_010743.jpg"
+  },
+  {
+    "timestamp": "2026-03-10T01:07:43.347919",
+    "plate": "A",
+    "image": "dashboard/captures/plate_20260310_010743.jpg"
   }
 ]
