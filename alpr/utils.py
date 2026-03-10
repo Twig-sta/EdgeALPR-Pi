@@ -22,6 +22,10 @@ def preprocess_image(frame):
 def detect_edges(image):
     edges = cv2.Canny(image, 100, 200) 
 
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+    edges = cv2.dilate(edges, kernel, iterations=1)
+    edges = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
+
     return edges
 
 # Save the detected license plate image to the captures directory with a timestamped filename
